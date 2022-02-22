@@ -2,7 +2,7 @@ body {
     background-color: #0c0c0cf3;
 }
 
-.presentation {
+#presentation {
     background-color: rgb(56, 3, 99);
     text-align: center;
     margin-left: 40px;
@@ -10,29 +10,50 @@ body {
     margin-top: 45px;
 }
 
-.presentation_hi {
+#presentation_hi {
     background-color: rgb(124, 28, 214);
     height: 30px;
 }
 
-.my_name {
+#my_name {
     position: relative;
     bottom: 2px;
     color: white;
     font-family: "Oswald", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.hello {
+#hello {
     color: white;
     position: relative;
     top: 6px;
 }
 
-.city_stars_image_container {
+#city_stars_image_container {
     height: 500px;
 }
 
-.city_stars_image {
+#city_stars_image {
     width: 100%;
     height: 100%;
+}
+
+#button_arrow_container {
+    position: relative;
+    bottom: 53px;
+}
+
+#button_arrow {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+#button_arrow_image {
+    width: 60px;
+}
+
+#information {
+    background-color: rgb(124, 28, 214);
+    margin: 0;
+    display: none;
 }
